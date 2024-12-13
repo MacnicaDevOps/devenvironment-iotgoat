@@ -3,7 +3,7 @@ services:
     entrypoint:
     - sleep
     - infinity
-    image: minepicco/cci-build:22.04
+    image: minepicco/dev-image:1.0
     init: true
     volumes:
     - type: bind
