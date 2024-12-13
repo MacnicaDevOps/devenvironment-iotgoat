@@ -3,7 +3,8 @@ services:
     entrypoint:
     - sleep
     - infinity
-    image: minepicco/cci-build:22.04
+#    image: minepicco/cci-build:22.04
+    image: ubuntu:18.04
     init: true
     volumes:
     - type: bind
