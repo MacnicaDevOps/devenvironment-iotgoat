@@ -3,8 +3,8 @@ services:
     entrypoint:
     - sleep
     - infinity
-    # image: minepicco/dev-image:1.0
-    image: macnicadevops/intel:0.1
+    image: minepicco/dev-image:1.0
+    # image: macnicadevops/intel:0.1
     init: true
     volumes:
     - type: bind
