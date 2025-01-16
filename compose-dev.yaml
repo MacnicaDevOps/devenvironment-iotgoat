@@ -3,8 +3,8 @@ services:
     entrypoint:
     - sleep
     - infinity
-      image: minepicco/dev-image:1.0
-      platform: linux/x86_64
+    image: minepicco/dev-image:1.0
+    platform: linux/x86_64
     init: true
     volumes:
     - type: bind
