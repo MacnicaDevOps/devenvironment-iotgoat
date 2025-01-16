@@ -3,7 +3,7 @@ services:
     entrypoint:
     - sleep
     - infinity
-    image: minepicco/dev-image:1.0
+    image: macnicadevops/intel:0.1
     platform: linux/x86_64
     mac_address: 00:11:22:33:44:55
     init: true
