@@ -4,8 +4,7 @@ services:
     - sleep
     - infinity
       image: ubuntu:20.04
-    # image: minepicco/dev-image:1.0
-    # image: macnicadevops/intel:0.1
+      mac_address: 01:02:0a:0b:22
     init: true
     volumes:
     - type: bind
