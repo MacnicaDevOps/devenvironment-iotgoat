@@ -4,7 +4,6 @@ services:
     - sleep
     - infinity
       image: ubuntu:20.04
-      #mac_address: 10:50:02:01:00:01
     # image: minepicco/dev-image:1.0
     # image: macnicadevops/intel:0.1
     init: true
